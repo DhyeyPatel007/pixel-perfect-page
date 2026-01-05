@@ -1,13 +1,37 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { Helmet } from "react-helmet-async";
+import Navbar from "@/components/Navbar";
+import HeroSection from "@/components/HeroSection";
+import CollectionsSection from "@/components/CollectionsSection";
+import AboutSection from "@/components/AboutSection";
+import ReviewsSection from "@/components/ReviewsSection";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+    <>
+      <Helmet>
+        <title>PaperFellows - Curated Gift Hampers for Every Occasion</title>
+        <meta
+          name="description"
+          content="We craft unique paper bouquets, aesthetic gift hampers, and custom gifts. #1 in Gujarat for premium color-coordinated accessories and gift sets."
+        />
+        <meta
+          name="keywords"
+          content="gift hampers, paper bouquets, aesthetic gifts, custom gifts, Gujarat gifts, PaperFellows"
+        />
+      </Helmet>
+
+      <div className="min-h-screen">
+        <Navbar />
+        <main>
+          <HeroSection />
+          <CollectionsSection />
+          <AboutSection />
+          <ReviewsSection />
+        </main>
+        <Footer />
       </div>
-    </div>
+    </>
   );
 };
 
