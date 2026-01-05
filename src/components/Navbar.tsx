@@ -25,9 +25,9 @@ const Navbar = () => {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <a href="#home" className="flex items-center gap-1">
-            <span className="font-script text-2xl md:text-3xl text-coral">P</span>
-            <span className="font-heading text-lg md:text-xl font-semibold text-foreground tracking-wide">aperFellows</span>
+          <a href="#home" className="flex items-center">
+            <span className="font-body text-2xl md:text-3xl font-semibold text-coral">P</span>
+            <span className="font-body text-lg md:text-xl font-semibold text-foreground tracking-wide">aperFellows</span>
           </a>
 
           {/* Desktop Navigation */}
