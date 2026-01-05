@@ -17,6 +17,8 @@ export default {
         script: ['"Dancing Script"', 'cursive'],
         heading: ['"Playfair Display"', 'serif'],
         body: ['Poppins', 'sans-serif'],
+        outfit: ['Outfit', 'sans-serif'],
+        sails: ['Sails', 'cursive'],
       },
       colors: {
         border: "hsl(var(--border))",

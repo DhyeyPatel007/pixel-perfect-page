@@ -63,8 +63,8 @@ const CollectionsSection = () => {
           transition={{ duration: 0.5 }}
           className="text-center mb-12 md:mb-16"
         >
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-heading font-semibold">
-            <span className="font-script text-coral text-3xl md:text-4xl lg:text-5xl">C</span>
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-body font-semibold">
+            <span className="font-body text-coral text-3xl md:text-4xl lg:text-5xl">C</span>
             ollections
           </h2>
         </motion.div>
@@ -92,10 +92,10 @@ const CollectionsSection = () => {
                 </div>
               </div>
               <div className="text-center mt-4 px-2">
-                <h3 className="font-heading font-semibold text-sm md:text-base text-foreground mb-1">
+                <h3 className="font-body font-semibold text-sm md:text-base text-foreground mb-1">
                   {collection.name}
                 </h3>
-                <p className="text-xs md:text-sm text-muted-foreground leading-relaxed">
+                <p className="font-body text-xs md:text-sm text-muted-foreground leading-relaxed">
                   {collection.description}
                 </p>
               </div>

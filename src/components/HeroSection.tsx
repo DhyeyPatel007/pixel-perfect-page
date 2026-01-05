@@ -23,9 +23,9 @@ const HeroSection = () => {
             </div>
 
             {/* Heading */}
-            <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-heading font-semibold leading-tight mb-4">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-outfit font-semibold leading-tight mb-4">
               We Craft{" "}
-              <span className="font-script text-coral text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
+              <span className="font-sails text-coral text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
                 Hampers
               </span>
               <br />
@@ -67,20 +67,23 @@ const HeroSection = () => {
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="flex-1 relative"
+            className="flex-1 relative flex items-center justify-center"
           >
-            <div className="relative w-full max-w-lg mx-auto">
-              {/* Decorative circle */}
-              <div className="absolute inset-0 bg-rose/40 rounded-full blur-3xl transform scale-90" />
+            <div className="relative w-72 h-72 md:w-96 md:h-96 lg:w-[28rem] lg:h-[28rem]">
+              {/* Background blur circle */}
+              <div className="absolute inset-0 bg-rose/50 rounded-full blur-3xl scale-110" />
               
-              {/* Main image */}
-              <motion.img
-                src={heroImage}
-                alt="PaperFellows Rose Hamper - Beautiful gift box with pink accessories"
-                className="relative z-10 w-full h-auto object-contain drop-shadow-2xl"
-                animate={{ y: [0, -10, 0] }}
-                transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-              />
+              {/* Circle container with stroke */}
+              <div className="relative w-full h-full rounded-full border-4 border-coral/40 overflow-hidden bg-rose/20 backdrop-blur-sm shadow-2xl">
+                {/* Main image fitted in circle */}
+                <motion.img
+                  src={heroImage}
+                  alt="PaperFellows Rose Hamper - Beautiful gift box with pink accessories"
+                  className="w-full h-full object-cover"
+                  animate={{ scale: [1, 1.02, 1] }}
+                  transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+                />
+              </div>
             </div>
           </motion.div>
         </div>
