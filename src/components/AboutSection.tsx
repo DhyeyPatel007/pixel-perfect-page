@@ -13,7 +13,7 @@ const AboutSection = () => {
         >
           {/* Section Header */}
           <div className="mb-8">
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-heading font-semibold mb-4">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-body font-semibold mb-4">
               <span className="font-script text-coral text-3xl md:text-4xl lg:text-5xl">A</span>
               bout{" "}
               <span className="font-script text-peach text-3xl md:text-4xl lg:text-5xl">U</span>

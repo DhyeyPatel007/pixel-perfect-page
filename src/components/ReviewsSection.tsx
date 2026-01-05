@@ -39,7 +39,7 @@ const ReviewsSection = () => {
           transition={{ duration: 0.5 }}
           className="text-center mb-12 md:mb-16"
         >
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-heading font-semibold mb-4">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-body font-semibold mb-4">
             <span className="font-script text-coral text-3xl md:text-4xl lg:text-5xl">C</span>
             ustomer{" "}
             <span className="font-script text-peach text-3xl md:text-4xl lg:text-5xl">R</span>
