@@ -25,12 +25,12 @@ const HeroSection = () => {
             {/* Heading */}
             <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-outfit font-semibold leading-tight mb-4">
               We Craft{" "}
-              <span className="font-sails text-coral text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
+              <span className="font-script text-coral text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
                 Hampers
               </span>
               <br />
               For every{" "}
-              <span className="text-peach font-script text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
+              <span className="text-peach font-outfit text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
                 occasion.
               </span>
             </h1>
