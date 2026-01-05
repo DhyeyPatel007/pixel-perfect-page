@@ -51,11 +51,12 @@ const HeroSection = () => {
                 <ArrowRight className="w-4 h-4" />
               </a>
               <a
-                href="https://wa.me/916353824179"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-foreground/20 bg-background/30 backdrop-blur-sm font-medium text-sm text-foreground hover:bg-background/50 transition-all duration-300"
-              >
+  href="https://api.whatsapp.com/send?phone=916353824179&text=Hello"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center gap-2 px-6 py-3 rounded-full border border-foreground/20 bg-background/30 backdrop-blur-sm font-medium text-sm text-foreground hover:bg-background/50 transition-all duration-300"
+>
+
                 WhatsApp
                 <MessageCircle className="w-4 h-4" />
               </a>
